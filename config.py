@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8655163628:AAEV99aRFnEbhkRAKIwI8IOsOKI4MpOpn4E")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8655163628:AAH-jfQj3WrBwA_0BtcR64WSyRbtcYqFOqk")
 ADMIN_IDS = list(map(int, os.getenv("ADMIN_IDS", "6917006135").split(",")))
 
 # MySQL sozlamalari
